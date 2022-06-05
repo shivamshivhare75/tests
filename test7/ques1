@@ -1,1 +1,76 @@
+There are 3 ways of writing a function in JavaScript:
+
+Function Declaration
+Function Expression
+Arrow Function
+
+1. Function Declaration: Function Declaration is the traditional way to define a function. It is somehow similar to the way we define a function in other programming languages. We start declaring using the keyword “function”. Then we write the function name and then parameters.
+
+example of Function Declaration.
+
+// Function declaration
+function add(a, b) {        
+    console.log(a + b);
+}
+ 
+// Calling a function
+add(2, 3);
+After defining a function, we call it whenever the function is required.
+
+Output: 5
+
+2. Function Expression: Function Expression is another way to define a function in JavaScript. Here we define a function using a variable and store the returned value in that variable.
+
+example of Function Expression.
+
+// Function Expression
+const add = function(a, b) {
+    console.log(a+b);
+}
+ 
+// Calling function
+add(2, 3);
+ 
+ 
+
+Here, the whole function is an expression and the returned value is stored in the variable. We use the variable name to call the function.
+
+ 
+
+Output: 5
+ 
+
+3. Arrow Functions: Arrow functions are been introduced in the ES6 version of JavaScript. It is used to shorten the code. Here we do not use the “function” keyword and use the arrow symbol.
+
+
+Example:
+
+ 
+
+// Single line of code
+let add = (a, b) => a + b;
+ 
+console.log(add(3, 2));
+This shortens the code to a single line compared to other approaches. In a single line of code, the function returns implicitly.
+
+Output:
+
+5
+Note: When there is a need to include multiple lines of code we use brackets. Also, when there are multiple lines of code in the bracket we should write return explicitly to return the value from the function.
+
+Example:
+
+// Multiple line of code
+const great = (a, b) => {
+    if (a > b)
+        return "a is greater";
+    else
+        return "b is greater";
+}
+ 
+console.log(great(3,5));
+Output:
+
+b is greater
+
 
