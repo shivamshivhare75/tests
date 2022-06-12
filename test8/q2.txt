@@ -1,0 +1,31 @@
+we can loop an array in three ways:
+
+const a =[1,2,3,4];
+
+1- traditional for loop :-   (in this loop we get the index of the element).
+
+for(let i=0;i<arr.length;i++){ 
+    console.log(i);
+}
+
+2- for of loop :-  (in this loop we get the element).
+
+for(let i of arr){
+    console.log(i);
+}  
+
+3- for in loop :-  (in this loop we get the index of the element).
+
+for(let i in arr){
+     console.log(i);
+}
+
+4. while loop :-
+let i = 0;
+while (i<a.length){
+    console.log(a[i]);
+    i++
+}
+
+
+The commonly used for loop is the for of loop and traditional for loop.

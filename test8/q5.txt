@@ -1,0 +1,13 @@
+What will be returned if you look for the index of something that does not exist?
+
+It will return nothing.
+
+ example:-
+
+var arr = ['a', 'b', 'c', 'd'];
+for(let i in arr){
+    if(arr[i]==='e'){
+        console.log(`index position of b is  ${i}`);
+    }
+}
+

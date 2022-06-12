@@ -1,0 +1,11 @@
+What is the length of these arrays
+A. var arr1 = [,,,]; 
+   length = 3
+B. var arr2 = new Array(3)  
+  length = 3
+C. var arr3 = [1,2,3,4,5]  
+   length = 5
+D. var array = [ [1,2,3], [4,5,6]  ]; 
+   length = 2
+E. var array[0].length = [ [1,2,3], [4,5,6]  ];  
+  length = 3
